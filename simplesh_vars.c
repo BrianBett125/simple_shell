@@ -1,7 +1,8 @@
 #include "shell.h"
 
 /**
- * funct_ischain - function to test if current char in buffer is a chain delimeter
+ * funct_ischain - function to test if current char in buffer is a
+ * chain delimeter
  * @info: the parameter struct
  * @buff: the charactor buffer
  * @z: address of current position in buff
@@ -36,7 +37,7 @@ int funct_ischain(info_tx *info, char *buff, size_t *z)
 }
 
 /**
- * checkifcontinue_chain - function to check if we should continue 
+ * checkifcontinue_chain - function to check if we should continue
  * chaining based on last status
  *
  * @info: the parameter struct
@@ -47,7 +48,8 @@ int funct_ischain(info_tx *info, char *buff, size_t *z)
  *
  * Return: Void
  */
-void checkifcontinue_chain(info_tx *info, char *buff, size_t *z, size_t a, size_t lenz)
+void checkifcontinue_chain(info_tx *info, char *buff, size_t *z,
+		size_t a, size_t lenz)
 {
 	size_t f = *z;
 
@@ -72,7 +74,8 @@ void checkifcontinue_chain(info_tx *info, char *buff, size_t *z, size_t a, size_
 }
 
 /**
- * replac_etoken_alias - function that replaces an aliases in the tokenized string
+ * replac_etoken_alias - function that replaces an aliases in the
+ * tokenized string
  * @info: the parameter struct
  *
  * Return: 1 if replaced, 0 otherwise
@@ -81,6 +84,7 @@ int replac_etoken_alias(info_tx *info)
 {
 	int x;
 	list_tx *node;
+
 	char *q
 
 	for (x = 0; x < 10; x++)

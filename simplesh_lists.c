@@ -101,7 +101,7 @@ size_t _printliststr(const list_tx *u)
  *
  * Return: 1 on success, 0 on failure
  */
-int deletethe_node_atindex (list_tx **head, unsigned int indexed)
+int deletethe_node_atindex(list_tx **head, unsigned int indexed)
 {
 	list_tx *node, *previous_node;
 	unsigned int a = 0;

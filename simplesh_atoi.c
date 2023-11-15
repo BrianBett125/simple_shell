@@ -2,7 +2,7 @@
 
 /**
  * _interactivion_mode - returns true if shell is in interactive mode
- * @info: struct address
+ * @infor: struct address
  *
  * Return: 1 if interactive mode, and returns 0 otherwise
  */
@@ -50,7 +50,7 @@ int _atoi(char *str)
 	int l, sign = 1, _flag = 0, output;
 	unsigned int answer = 0;
 
-	for (l = 0;  str[l] != '\0' && flag != 2; l++)
+	for (l = 0;  str[l] != '\0' && _flag != 2; l++)
 	{
 		if (str[l] == '-')
 			sign *= -1;

@@ -19,7 +19,8 @@ int _stringretlen(char *g)
 }
 
 /**
- * _stringcomparison - function that performs lexicogarphic comparison of two strangs.
+ * _stringcomparison - function that performs lexicogarphic comparison of
+ * two strangs.
  * @Sa: the first strang
  * @Sb: the second strang
  *

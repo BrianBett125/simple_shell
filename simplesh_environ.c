@@ -19,7 +19,7 @@ int _myenvironment(info_tx *info)
  *
  * Return: the value
  */
-char *get_environ_val(info_tx *info, const char *name)
+char *_get_environ_val(info_tx *info, const char *name)
 {
 	list_tx *node = info->env;
 	char *b;

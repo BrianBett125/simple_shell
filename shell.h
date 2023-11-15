@@ -223,7 +223,7 @@ int regivesnumber_history(info_tx *info);
 list_tx *the_headnode_add(list_tx **head, const char *string, int num);
 list_tx *new_end_node(list_tx **head, const char *string, int num);
 size_t _printliststr(const list_tx *u);
-int deletethe_node_atindex (list_tx **head, unsigned int indexed);
+int deletethe_node_atindex(list_tx **head, unsigned int indexed);
 void _freedlist(list_tx **headptr);
 
 /* simplesh_lists1.c */
@@ -236,7 +236,8 @@ size_t gets_the_nodeindex(list_tx *head, list_tx *node);
 
 /* simplesh_vars.c */
 int funct_ischain(info_tx *info, char *buff, size_t *z);
-void checkifcontinue_chain(info_tx *info, char *buff, size_t *z, size_t a, size_t lenz);
+void checkifcontinue_chain(info_tx *info, char *buff, size_t *z, size_t a,
+		size_t lenz);
 int replac_etoken_alias(info_tx *info);
 int change_vars(info_tx *info);
 int change_string(char **old, char *new);
